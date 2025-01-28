@@ -137,3 +137,109 @@ padding-right: 20px;
 
 
 /* section banniere*/
+
+
+h2{
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.conteneur-transport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+
+}
+
+
+article h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+article p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.facebook a{
+background-image: url("../image/facebook-nb.jpg");
+}
+
+
+
+.twitter a{
+    background-image: url("../image/twitter-nb.jpg");
+    }
+    
+
+.linkedin a{
+        background-image: url("../image/linkedin-nb.jpg");
+        }
+        
+
+
+.pinterest a{
+    background-image: url("../image/pinterest-nb.jpg");
+    }
+    
+
+
+
+
+
+.facebook a:hover{
+        background-image: url("../image/facebook-survol.jpg");
+        }
+        
+        
+        
+.twitter a:hover{
+            background-image: url("../image/twitter-survol.jpg");
+            }
+            
+        
+.linkedin a:hover{
+                background-image: url("../image/linkedin-survol.jpg");
+                }
+                
+        
+.pinterest a:hover{
+            background-image: url("../image/pinterest-survol.jpg");
+            }
+             
+
+    footer{
+                background-color:black ;
+                color: #eeeeee;
+            }
+
+    footer a{
+                display: inline-block;
+                width: 32px;
+                height: 32px;
+                
+            }
+
+            footer ul{
+                display: flex;
+                list-style-type: none;
+                gap: 20px;
+
+    }
+
+    footer .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+
+   
